@@ -1,0 +1,25 @@
+<!-- Language Selector -->
+<div style="text-align: right; padding: 10px">
+  <select (change)="switchLanguage($event)">
+    <option value="en">English</option>
+    <option value="fr">Français</option>
+    <option value="pt">Português</option>
+  </select>
+</div>
+
+<!-- Main Title -->
+<h1>{{ "TITLE" | translate }}</h1>
+
+<!-- Crew List Component -->
+<app-crew-list></app-crew-list>
+
+<!-- Other Content Section -->
+<section>
+  <h2>{{ "WELCOME_MESSAGE" | translate }}</h2>
+  <p>{{ "WELCOME_TEXT" | translate }}</p>
+</section>
+
+<!-- Footer or Additional Information -->
+<footer>
+  <p>{{ "FOOTER_TEXT" | translate }}</p>
+</footer>

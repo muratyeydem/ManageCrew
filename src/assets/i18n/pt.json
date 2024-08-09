@@ -1,0 +1,17 @@
+{
+  "EDIT_CREW_DETAILS": "Editar Detalhes da Equipe",
+  "FIRST_NAME": "Nome",
+  "LAST_NAME": "Sobrenome",
+  "NATIONALITY": "Nacionalidade",
+  "TITLE_LABEL": "Título",
+  "DAYS_ON_BOARD": "Dias a bordo",
+  "DAILY_RATE": "Taxa diária",
+  "CURRENCY": "Moeda",
+  "TOTAL_INCOME": "Rendimento total",
+  "TITLE": "Gestão de Tripulação",
+  "WELCOME_MESSAGE": "Bem-vindo ao Sistema de Gestão de Tripulação",
+  "WELCOME_TEXT": "Aqui você pode gerenciar seus membros da tripulação de forma eficiente.",
+  "FOOTER_TEXT": "© 2024 Gestão de Tripulação Inc. Todos os direitos reservados.",
+  "ACTIONS": "Ações",
+  "ADD_CREW": "Adicionar tripulação"
+}

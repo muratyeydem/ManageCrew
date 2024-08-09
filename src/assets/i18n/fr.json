@@ -1,0 +1,17 @@
+{
+  "EDIT_CREW_DETAILS": "Modifier les détails de l'équipage",
+  "FIRST_NAME": "Prénom",
+  "LAST_NAME": "Nom de famille",
+  "NATIONALITY": "Nationalité",
+  "TITLE_LABEL": "Titre",
+  "DAYS_ON_BOARD": "Jours à bord",
+  "DAILY_RATE": "Tarif journalier",
+  "CURRENCY": "Monnaie",
+  "TOTAL_INCOME": "Revenu total",
+  "TITLE": "Gestion de l'équipage",
+  "WELCOME_MESSAGE": "Bienvenue dans le système de gestion de l'équipage",
+  "WELCOME_TEXT": "Ici, vous pouvez gérer vos membres d'équipage de manière efficace.",
+  "FOOTER_TEXT": "© 2024 Gestion de l'équipage Inc. Tous droits réservés.",
+  "ACTIONS": "Actions",
+  "ADD_CREW": "Ajouter un équipage"
+}

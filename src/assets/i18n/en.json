@@ -1,0 +1,20 @@
+{
+  "EDIT_CREW_DETAILS": "Edit Crew Details",
+  "FIRST_NAME": "First Name",
+  "LAST_NAME": "Last Name",
+  "NATIONALITY": "Nationality",
+  "DAYS_ON_BOARD": "Days On Board",
+  "DAILY_RATE": "Daily Rate",
+  "CURRENCY": "Currency",
+  "TOTAL_INCOME": "Total Income",
+  "DISCOUNT": "Discount",
+  "DELETE_CREW": "Delete Crew",
+  "CARD_PAGE": "Card Page",
+  "EDIT_PAGE": "Edit Page",
+  "ADD_CREW": "Add Crew",
+  "TITLE": "Crew Management",
+  "WELCOME_MESSAGE": "Welcome to the Crew Management System",
+  "WELCOME_TEXT": "Here you can manage your crew members efficiently.",
+  "ACTIONS": "Actions",
+  "FOOTER_TEXT": "© 2024 Crew Management Inc. All rights reserved."
+}

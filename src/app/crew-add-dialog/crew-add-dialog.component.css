@@ -1,0 +1,28 @@
+/* Centering the form within the dialog */
+.crew-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align the form horizontally */
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align the form fields horizontally */
+  gap: 16px; /* Space between form fields */
+  width: 100%;
+  max-width: 500px; /* Set a maximum width for the form */
+}
+
+.mat-form-field {
+  width: 100%; /* Ensure form fields take up the full width of their container */
+}
+
+.dialog-actions {
+  display: flex;
+  justify-content: flex-end; /* Align buttons to the right */
+  gap: 8px; /* Space between buttons */
+  margin-top: 16px; /* Space above the buttons */
+  width: 100%;
+  max-width: 500px; /* Match the form width */
+}

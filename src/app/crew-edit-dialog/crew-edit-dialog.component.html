@@ -1,0 +1,67 @@
+<h2 mat-dialog-title>{{ "EDIT_CREW_DETAILS" | translate }}</h2>
+<mat-dialog-content>
+  <!-- First Name -->
+  <mat-form-field>
+    <mat-label>{{ "FIRST_NAME" | translate }}</mat-label>
+    <input matInput [(ngModel)]="data.firstName" />
+  </mat-form-field>
+
+  <!-- Last Name -->
+  <mat-form-field>
+    <mat-label>{{ "LAST_NAME" | translate }}</mat-label>
+    <input matInput [(ngModel)]="data.lastName" />
+  </mat-form-field>
+
+  <!-- Nationality -->
+  <mat-form-field>
+    <mat-label>{{ "NATIONALITY" | translate }}</mat-label>
+    <input matInput [(ngModel)]="data.nationality" />
+  </mat-form-field>
+
+  <!-- Title -->
+  <mat-form-field>
+    <mat-label>{{ "TITLE" | translate }}</mat-label>
+    <input matInput [(ngModel)]="data.title" />
+  </mat-form-field>
+
+  <!-- Days On Board -->
+  <mat-form-field>
+    <mat-label>{{ "DAYS_ON_BOARD" | translate }}</mat-label>
+    <input matInput type="number" [(ngModel)]="data.daysOnBoard" />
+  </mat-form-field>
+
+  <!-- Daily Rate -->
+  <mat-form-field>
+    <mat-label>{{ "DAILY_RATE" | translate }}</mat-label>
+    <input matInput type="number" [(ngModel)]="data.dailyRate" />
+  </mat-form-field>
+
+  <!-- Currency -->
+  <mat-form-field>
+    <mat-label>{{ "CURRENCY" | translate }}</mat-label>
+    <input matInput [(ngModel)]="data.currency" />
+  </mat-form-field>
+
+  <!-- Total Income (Bu alan genellikle hesaplanır, kullanıcı girişine kapatabilirsiniz) -->
+  <mat-form-field>
+    <mat-label>{{ "TOTAL_INCOME" | translate }}</mat-label>
+    <input matInput type="number" [(ngModel)]="data.totalIncome" disabled />
+  </mat-form-field>
+
+  <!-- Certificates -->
+  <mat-form-field>
+    <mat-label>{{ "CERTIFICATES" | translate }}</mat-label>
+    <input
+      matInput
+      [(ngModel)]="data.certificates"
+      placeholder="{{ 'CERTIFICATES_PLACEHOLDER' | translate }}"
+    />
+  </mat-form-field>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+  <button mat-button (click)="onClose()">{{ "CANCEL" | translate }}</button>
+  <button mat-button color="primary" (click)="onSave()">
+    {{ "SAVE" | translate }}
+  </button>
+</mat-dialog-actions>
